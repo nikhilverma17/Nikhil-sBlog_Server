@@ -1,0 +1,116 @@
+html {
+    min-height: 100%;
+    position: relative;
+  }
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
+}
+body
+{
+    background-image: -webkit-linear-gradient(360deg,  #C0EEE4 40%,  #C0EEE4 50%);
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    font-family: 'Ysabeau', sans-serif;
+    background-color: #99DBF5;
+
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+    padding-bottom: 50px;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    bottom:0%;
+    width: 100%;
+    height: 60px;
+    background-color: #FF9E9E;
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 20px;
+}
+
+
+.container_body{
+    
+    font-size: 2.8vh;
+    font-family: 'Geologica', sans-serif;
+    margin: 50px;
+    text-align: justify;
+    
+
+
+}
+h1,h2{
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.nav-link{
+    font-size: 3vh;
+    font-weight: bold;
+}
+#contact-me{
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.icon1{
+    color: #e10000;
+    padding: 50px;
+}
+
+
+@media(max-width:1050px) {
+    footer {
+        position: fixed;
+        text-align: center;
+        bottom:0%;
+        width: 100%;
+        height: 90px;
+        background-color: #FF9E9E;
+        font-family: 'Philosopher', sans-serif;
+        font-size: 2vh;
+
+    }
+
+    .container_body {
+        width: 90%;
+        font-size: 1.9vh;
+        padding: 20px;
+        font-family: 'Philosopher', sans-serif;
+        margin:auto;
+      }
+
+   #brand{
+    font-size: 3vh;
+    font-weight: bold;
+   }
+   #contact-me{
+    margin-top: 0px;
+    margin-left: 330px;
+    margin-right: 330px;
+    
+}
+#h2{
+    font-size: 1.9vh;
+}
+.icon1{
+    color: #e10000;
+    padding: 50px;
+}
+#copyright{
+    margin-top: 20px;
+}
+}
